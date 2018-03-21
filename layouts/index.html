@@ -8,8 +8,8 @@
 
         <h1>{{ .Site.Title }}</h1>
 
-        <h2>{{ markdownify .Site.Params.Subtitle }}</h2>
-        <div class="text-justify">{{ markdownify .Site.Params.Description }}</div>
+        <h2>{{ markdownify .Site.Params.Description }}</h2>
+        <div class="text-justify">{{ .Content }}</div>
 
     </div>
 
